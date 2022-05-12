@@ -160,18 +160,41 @@
 
         <!-- About Us Image Wrapper -->
         <div style="position: relative">
-<!--            <img-->
-<!--                    src="images/team-1.jpeg"-->
-<!--                    alt="Foto met zeven personen, kijkend naar een laptop."-->
-<!--            />-->
             <picture>
+
+                <!-- Avif -->
                 <source
-                    sizes="(max-width: 1024px) 100vw, 1024px"
-                    srcset="
-                       images/team-1.avif 1920w,
-                    "
-                    type="image/avif"
+                        sizes="(max-width: 1024px) 100vw, 1024px"
+                        srcset="
+                        images/team-1-1024.avif 1024w,
+                        images/team-1-975.avif 975w,
+                        images/team-1-766.avif 766w,
+                        images/team-1-533.avif 533w"
+                        type="image/avif"
                 />
+
+                <!-- WebP -->
+                <source
+                        sizes="(max-width: 1024px) 100vw, 1024px"
+                        srcset="
+                        images/team-1-1024.webp 1024w,
+                        images/team-1-975.webp 975w,
+                        images/team-1-766.webp 766w,
+                        images/team-1-533.webp 533w"
+                        type="image/webp"
+                />
+
+                <!-- JPG -->
+                <source
+                        sizes="(max-width: 1024px) 100vw, 1024px"
+                        srcset="
+                        images/team-1-1024.jpg 1024w,
+                        images/team-1-975.jpg 975w,
+                        images/team-1-766.jpg 766w,
+                        images/team-1-533.jpg 533w"
+                        type="image/jpeg"
+                />
+
                 <img src="images/team-1.jpeg" alt="Photo">
             </picture>
 

@@ -8,9 +8,10 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 // // Set cache max-age
-// app.use(function (req, res, next) {
-//   res.set('Cache Control', 'public, max-age=86400');
-// });
+app.use((req, res, next) => {
+  res.set('Cache-control', 'public, max-age=86400')
+  next()
+})
 
 // Routes
 const projectRoute = require('./routes/projects');
