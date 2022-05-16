@@ -4,6 +4,7 @@
   "description": "> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "minify": "node scripts/minify.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
