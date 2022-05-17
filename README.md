@@ -16,12 +16,12 @@ Dit project omvat een detailpagina voor een project uitgevoerd door Chippr, waar
 
 Dit project is gemaakt met NodeJS, EJS en CSS. Verder staat hieronder nog een korte lijst met gebruikte tools en middelen.
 
-** Tools **
+**Tools**
 
 - 🖥️ Webstorm
 - ✍ Pen & Papier
 
-** Gebruikte technieken **
+**Gebruikte technieken**
 
 - 📟 NodeJS
 - 🚀 EJS
