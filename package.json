@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "minify": "node scripts/minify.js",
+    "critical": "node scripts/criticla.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.5",
     "compression": "^1.7.4",
+    "critical": "^4.0.1",
     "cssnano": "^5.1.7",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
