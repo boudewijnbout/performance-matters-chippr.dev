@@ -3,7 +3,19 @@ const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const fs = require('fs');
 
-// General CSS
+// Global CSS
+fs.readFile('./public/css/critical.css', async (err, data) => {
+  const output = await postcss([cssnano, autoprefixer]).process(data);
+  const minifiedCss = output.css;
+
+  fs.writeFile('public/css/critical.min.css', minifiedCss, err => {
+    if (err) {
+      console.log(err);
+    }
+  })
+});
+
+// Index CSS
 fs.readFile('./public/css/style.css', async (err, data) => {
   const output = await postcss([cssnano, autoprefixer]).process(data);
   const minifiedCss = output.css;
