@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "minify": "node scripts/minify.js",
-    "critical": "node scripts/criticla.js",
+    "critical": "node scripts/critical.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
