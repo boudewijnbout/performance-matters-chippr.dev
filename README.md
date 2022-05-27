@@ -31,7 +31,7 @@ Dit project is gemaakt met NodeJS, EJS en CSS. Verder staat hieronder nog een ko
 
 1. Clone of download deze repository.
 2. Ga naar de root directory van het project.
-3. Gebruik `npm install` om de gebruikte dev depencies en packages te installeren.
+3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
 4. Gebruik `node app.js` om de web-server te starten. Deze is standaard bereikbaar op poort `3000`.
 
 ## 🔨 Gebruik
